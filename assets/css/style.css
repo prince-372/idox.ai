@@ -439,8 +439,8 @@
     height: 300.212px;
     flex-shrink: 0;
     position: absolute;
-    top: 6%;
-    left: 27%;
+    top: 21%;
+    left: 9%;
 }
 
 /* We provide secure solutions */
@@ -856,6 +856,11 @@ flex-shrink: 0;
     width: 100%;
     outline: none;
     margin-right: 15px;
+}
+.blure-image{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -1315,6 +1320,19 @@ footer ul li a:hover {
     .accordion-item{
         width: 370px;
     }
+    .slider-elipes {
+        border-radius: 433.455px;
+        opacity: 0.3;
+        background: #06F;
+        filter: blur(100px);
+        width: 294.455px;
+        height: 300.212px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 21%;
+        left: 38%;
+    }
+    
 }
 
 @media (min-width:992px) {
