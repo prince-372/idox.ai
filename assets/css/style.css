@@ -88,11 +88,11 @@
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
     padding: 13px 32px;
     border: none;
-    transition: .4s;
+    transition: .4s !important;
 }
 .try-btn:hover{
     background: transparent ;
-    outline: 1px solid  #0069E3 ;
+    outline: 1px solid  #fff ;
     box-shadow: unset !important;
 }
 
@@ -125,7 +125,7 @@
 }
 .demo-btn:hover {
     background: transparent ;
-    outline: 1px solid  #0069E3 ;
+    outline: 1px solid  #fff ;
     box-shadow: unset !important;
 }
 
@@ -232,7 +232,7 @@
 }
 .watch-btn:hover {
     background: transparent ;
-    outline: 1px solid  #0069E3 ;
+    outline: 1px solid  #fff ;
     box-shadow: unset !important;
 }
 
@@ -258,6 +258,7 @@
 
 /* How we can help? */
 
+/* =========accordion========== */
 .img_mwh {
     width: 64px;
     height: 64px;
@@ -268,26 +269,35 @@
 }
 
 .mx-370 {
-    max-width: 370px;
+    max-width: 370px !important;
 }
 
 .accordion-item {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
     border: none !important;
     border-radius: 10px !important;
     background: rgba(3, 137, 255, 0.12) !important;
-    /* backdrop-filter: blur(12.5px) !important; */
-    margin-bottom: 20px !important;
+    backdrop-filter: blur(12.5px) !important;
+    margin-bottom: 10px !important;
+}
 
+.opacity-6 {
+    opacity: 0.6;
 }
 
 .mh-550 {
     min-height: 550px;
 }
 
+.mh-590 {
+    min-height: 594px;
+}
+
 .accordion-body {
-    padding: 0 !important;
-    padding-left: 27px !important;
-    padding-bottom: 20px !important;
+    padding: 0px 20px 35px 99px !important;
+    margin-top: -35px !important;
 }
 
 .mw-370 {
@@ -299,15 +309,25 @@
 }
 
 .accordion-button {
+    width: 100% !important;
     color: #fbfdff !important;
     transition: all 500ms linear !important;
-    /* padding: 22.5px 272.456px 23.5px 25.544px !important; */
+    padding: 22.5px 0px 23.5px 22.544px !important;
 }
 
 .accordion-button:not(.collapsed) {
-    padding-bottom: var(--bs-accordion-active-padding-bottom) !important;
+    padding: 0px 0px 23.5px 22.544px !important;
+    /* padding: 0px 15px !important; */
     transition: all 300ms linear !important;
-    color: #0389ff !important;
+    color: var(--color-light-blue) !important;
+}
+
+.accordion-button:not(.collapsed) img {
+    display: block !important;
+    transform: translateY(23px);
+    margin-right: 10px;
+    width: 64px;
+    height: 64px;
 }
 
 .accordion {
@@ -327,7 +347,6 @@
 .accordion-button::after {
     content: unset !important;
 }
-
 /* How We Bring Value */
 
 .sec-box {
@@ -436,7 +455,7 @@
 }
 .learn-btn:hover {
     background: transparent ;
-    outline: 1px solid  #0069E3 ;
+    outline: 1px solid  #fff ;
     box-shadow: unset !important;
 }
 
@@ -825,7 +844,7 @@ flex-shrink: 0;
 
 .now-btn:hover { 
     background: transparent ;
-    outline: 1px solid  #0069E3 ;
+    outline: 1px solid  #fff ;
     box-shadow: unset !important;
 }
 
@@ -1212,7 +1231,10 @@ footer ul li a:hover {
         color: #fbfdff !important;
         transition: all 500ms linear !important;
         padding: 22.5px 272.456px 23.5px 25.544px !important;
-        width: 100%;
+        width: 100% !important;
+    }
+    .accordion-item{
+        width: 531px;
     }
 
 }
@@ -1287,6 +1309,12 @@ footer ul li a:hover {
     .img-set{
         margin-top: -63px;
     }
+    .accordion-body{
+        padding: 0px 20px 35px 99px;
+    }
+    .accordion-item{
+        width: 370px;
+    }
 }
 
 @media (min-width:992px) {
@@ -1338,6 +1366,12 @@ footer ul li a:hover {
     .img-move {
         transform: translateY(-300px);
     }
+    .accordion-item{
+        width: 431px;
+    }
+    .accordion-body{
+        padding: 0px 50px 35px 99px  ;
+    }
 
 }
 @media (max-width:1200px) {
@@ -1367,6 +1401,9 @@ footer ul li a:hover {
         }
         .img-set{
             margin-top: -224px;
+        }
+        .accordion-item{
+            width: 531px;
         }
 
     }
