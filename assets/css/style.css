@@ -10,7 +10,7 @@
 }
 
 .container-fluid {
-    max-width: 1320px;
+    max-width: 1420px;
 }
 
 .overflow_hidden {
@@ -125,7 +125,7 @@
 }
 .demo-btn:hover {
     background: transparent ;
-    outline: 1px solid  #fff ;
+    outline: 1px solid  #fff !important;
     box-shadow: unset !important;
 }
 
@@ -436,7 +436,7 @@
     background: #06F;
     filter: blur(100px);
     width: 294.455px;
-    height: 300.212px;
+    height: 370.212px;
     flex-shrink: 0;
     position: absolute;
     top: 21%;
@@ -534,11 +534,11 @@
     background: #06F;
     filter: blur(100px);
     width: 489.097px;
-    height: 476.411px;
+    height: 257.411px;
     flex-shrink: 0;
     position: absolute;
-    top: 0%;
-    right: 2%;
+    top: 16%;
+    right: -4%;
     z-index: -1;
 }
 
@@ -551,7 +551,7 @@
     height: 476.411px;
     flex-shrink: 0;
     position: absolute;
-    bottom: 0%;
+    bottom: 21%;
     left: 0%;
     z-index: -1;
 }
@@ -700,7 +700,7 @@
     background: #06F;
     filter: blur(100px);
     width: 416.224px;
-    height: 405.428px;
+    height: 284.428px;
     flex-shrink: 0;
     position: absolute;
     top: 25%;
@@ -778,8 +778,8 @@ width: 416.224px;
 height: 405.428px;
 flex-shrink: 0;
     position: absolute;
-    top: -25%;
-    left: 0%;
+    top: 12%;
+    left: -17%;
     z-index: -1;
 }
 
@@ -1326,7 +1326,7 @@ footer ul li a:hover {
         background: #06F;
         filter: blur(100px);
         width: 294.455px;
-        height: 300.212px;
+        height: 270.212px;
         flex-shrink: 0;
         position: absolute;
         top: 21%;
