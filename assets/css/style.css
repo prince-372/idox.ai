@@ -312,7 +312,7 @@
     width: 100% !important;
     color: #fbfdff !important;
     transition: all 500ms linear !important;
-    padding: 22.5px 0px 23.5px 22.544px !important;
+    /* padding: 22.5px 0px 23.5px 22.544px !important; */
 }
 
 .accordion-button:not(.collapsed) {
