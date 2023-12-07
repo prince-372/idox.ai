@@ -505,7 +505,7 @@
     width: 50px !important;
     height: 30px;
     position: absolute;
-    right: -8%;
+    right: -1%;
     top: 38%;
 }
 
@@ -848,6 +848,9 @@ flex-shrink: 0;
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 1440px;
+height: 86.017px;
+flex-shrink: 0;
 }
 
 
@@ -992,7 +995,6 @@ footer li {
 
 .box:hover {
     transform: scale(1);
-    background-color: var(--color-bg);
 }
 
 
@@ -1313,11 +1315,11 @@ footer ul li a:hover {
         background: #06F;
         filter: blur(100px);
         width: 294.455px;
-        height: 270.212px;
+        height: 202.212px;
         flex-shrink: 0;
         position: absolute;
-        top: 21%;
-        left: 38%;
+        top: 36%;
+        left: 27%;
     }
     
 }
