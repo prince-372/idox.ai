@@ -41,3 +41,20 @@ function openNav() {
         document.querySelector(".menu").classList.remove("cross")
     })
     
+    // accordian
+let box = document.querySelectorAll(".box");
+box.forEach((row) => {
+  row.addEventListener("click", () => {
+    const x = document.querySelector(".active");
+    row.classList.toggle("active");
+    x && x.classList.remove("active");
+
+    if (!isOpen) {
+      // Smoothly open the clicked item
+      content.style.maxHeight = content.scrollHeight + "px";
+    } else {
+      // Close the clicked item
+      content.style.maxHeight = null;
+    }
+  });
+});
