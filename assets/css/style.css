@@ -794,6 +794,20 @@ flex-shrink: 0;
     border: 1px solid var(--color-light-blue);
 }
 
+.small-circle{
+max-width: 20.63px;
+max-height: 20.63px;
+padding: 12.504px 12.378px;
+flex-direction: column;
+justify-content: center;
+gap: 12.378px;
+border-radius: 53.121px;
+background: rgba(3, 137, 255, 0.10);
+backdrop-filter: blur(1.289352297782898px);
+display: flex;
+align-items: center;
+}
+
 /* Get started today! */
 
 .bg-sec {
