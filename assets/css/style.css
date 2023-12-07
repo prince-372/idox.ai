@@ -181,7 +181,7 @@
 .elipes-1 {
     border-radius: 303.657px;
     opacity: 0.4;
-    background: #1673FF;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 299.329px;
     height: 303.657px;
@@ -231,7 +231,7 @@
 }
 .watch-btn:hover {
     background: transparent ;
-    outline: 1px solid  #fff ;
+    outline: 1px solid  #fff !important;
     box-shadow: unset !important;
 }
 
@@ -283,7 +283,7 @@
     transition: .4s;
 }
 .sec-box:hover {
-  background-color: #0069e3;
+  background-color: var(--color-light-blue);
 }
 .sec-box:hover span svg path{
     fill: white;
@@ -413,7 +413,7 @@
     width: 53px !important;
     height: 10px !important;
     border-radius: 28px;
-    background: #0389FF !important;
+    background: var(--color-light-blue) !important;
 }
 
 
@@ -442,7 +442,7 @@
 }
 .learn-btn:hover {
     background: transparent ;
-    outline: 1px solid  #fff ;
+    outline: 1px solid  #fff !important;
     box-shadow: unset !important;
 }
 
@@ -453,7 +453,7 @@
 .elipes2-sec5 {
     border-radius: 395.788px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(123.5px);
     width: 381.479px;
     height: 395.788px;
@@ -467,7 +467,7 @@
 .elipes-sec5 {
     border-radius: 433.455px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 312.455px;
     height: 422.212px;
@@ -518,7 +518,7 @@
 .elipes-2 {
     border-radius: 489.097px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 489.097px;
     height: 257.411px;
@@ -532,13 +532,13 @@
 .elipes-3 {
     border-radius: 514.912px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(123.5px);
     width: 236.912px;
     height: 476.411px;
     flex-shrink: 0;
     position: absolute;
-    bottom: 21%;
+    bottom: 15%;
     left: 0%;
     z-index: -1;
 }
@@ -546,7 +546,7 @@
 .elipes-sec6 {
     border-radius: 362.394px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 362.394px;
     height: 338.572px;
@@ -569,7 +569,7 @@
 .elipes-sec3 {
     border-radius: 433.455px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 433.455px;
     height: 422.212px;
@@ -586,7 +586,7 @@
 .elipes2-sec3 {
     border-radius: 395.788px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(123.5px);
     width: 381.479px;
     height: 395.788px;
@@ -684,7 +684,7 @@
 .elipes-sec7 {
     border-radius: 416.224px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(100px);
     width: 416.224px;
     height: 284.428px;
@@ -699,7 +699,7 @@
 .elipes-sec8 {
     border-radius: 395.788px;
     opacity: 0.3;
-    background: #06F;
+    background: var(--color-light-blue);
     filter: blur(123.5px);
     width: 381.479px;
     height: 395.788px;
@@ -759,7 +759,7 @@
 .shadowimg-1-secton8 {
     border-radius: 416.224px;
 opacity: 0.3;
-background: #06F;
+background: var(--color-light-blue);
 filter: blur(100px);
 width: 416.224px;
 height: 405.428px;
@@ -773,7 +773,7 @@ flex-shrink: 0;
 .shadowimg-2-secton8 {
     border-radius: 537.685px;
 opacity: 0.3;
-background: #06F;
+background: var(--color-light-blue);
 filter: blur(100px);
 width: 537.685px;
 height: 156.418px;
@@ -791,7 +791,7 @@ flex-shrink: 0;
 .sec-card-color:hover .select-btn {
     color: var(--color-white);
     background-color: var(--color-light-blue);
-    border: 1px solid #0069E3;
+    border: 1px solid var(--color-light-blue);
 }
 
 /* Get started today! */
@@ -831,7 +831,7 @@ flex-shrink: 0;
 
 .now-btn:hover { 
     background: transparent ;
-    outline: 1px solid  #fff ;
+    outline: 1px solid  #fff !important;
     box-shadow: unset !important;
 }
 
@@ -884,6 +884,8 @@ p {
 .system {
     max-width: 225px;
 }
+
+/* footer */
 
 .footer-bg-color {
     background: rgba(3, 137, 255, 0.08);
@@ -1312,14 +1314,14 @@ footer ul li a:hover {
     .slider-elipes {
         border-radius: 433.455px;
         opacity: 0.3;
-        background: #06F;
+        background: var(--color-light-blue);
         filter: blur(100px);
         width: 294.455px;
         height: 202.212px;
         flex-shrink: 0;
         position: absolute;
         top: 36%;
-        left: 27%;
+        left: 40%;
     }
     
 }
