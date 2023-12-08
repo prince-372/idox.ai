@@ -101,6 +101,19 @@
     height: 2px;
 }
 
+.hero-elipes{
+    border-radius: 303.657px;
+    opacity: 0.4;
+    background: #1673FF;
+    filter: blur(100px);
+    width: 299.329px;
+height: 303.657px;
+flex-shrink: 0;
+position: absolute;
+bottom: 15%;
+left: 8%;
+}
+
 .lh-170 {
     line-height: 170%;
 }
@@ -484,7 +497,7 @@
     height: 422.212px;
     flex-shrink: 0;
     position: absolute;
-    top: 0%;
+    top: 41%;
     right: 0%;
     z-index: 0;
 }
@@ -525,6 +538,9 @@
     top: -12px;
     right: -12px;
 }
+.overflow-x-clip{
+    overflow-x: clip;
+}
 
 .elipes-2 {
     border-radius: 489.097px;
@@ -532,10 +548,10 @@
     background: var(--color-light-blue);
     filter: blur(100px);
     width: 489.097px;
-    height: 257.411px;
+    height: 476.411px;
     flex-shrink: 0;
     position: absolute;
-    top: 16%;
+    top: -17%;
     right: -22%;
     z-index: -1;
 }
@@ -698,10 +714,10 @@
     background: var(--color-light-blue);
     filter: blur(100px);
     width: 416.224px;
-    height: 284.428px;
+    height: 405.428px;
     flex-shrink: 0;
     position: absolute;
-    top: 25%;
+    top: 6%;
     left: -9%;
     z-index: -1;
 }
@@ -776,7 +792,7 @@ width: 416.224px;
 height: 405.428px;
 flex-shrink: 0;
     position: absolute;
-    top: 12%;
+    top: -14%;
     left: -17%;
     z-index: -1;
 }
