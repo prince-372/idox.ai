@@ -12,6 +12,9 @@
 .overflow_hidden {
     overflow: hidden;
 }
+.container-custom1{
+    max-width: 1164px !important;
+}
 
 /* preloder */
 
@@ -107,6 +110,10 @@
 
 .opacity-7 {
     opacity: 0.7;
+}
+/* header */
+.max-w-515{
+    max-width: 515px;
 }
 
 .demo-btn {
