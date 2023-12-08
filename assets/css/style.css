@@ -46,6 +46,7 @@
     margin-top: -173px;
 }
 
+
 .transform-img {
     transform: translateY(20px)
 }
@@ -1237,6 +1238,9 @@ footer ul li a:hover {
         border-right: 1px solid #273139;
         border-bottom: transparent;
     }
+    .pr-149{
+        padding-right: 149px;
+    }
 
 
 }
@@ -1438,6 +1442,9 @@ footer ul li a:hover {
             top: 30%;
             right: -10%;
             z-index: 1;
+        }
+        .padding-margin{
+            margin-top: -138px;
         }
 
     }
