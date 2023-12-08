@@ -423,11 +423,11 @@
     background: #06F;
     filter: blur(100px);
     width: 294.455px;
-    height: 370.212px;
+    height: 184.212px;
     flex-shrink: 0;
     position: absolute;
     top: 21%;
-    left: 9%;
+    left: 27%;
 }
 
 /* We provide secure solutions */
@@ -1317,7 +1317,7 @@ footer ul li a:hover {
         flex-shrink: 0;
         position: absolute;
         top: 36%;
-        left: 40%;
+        left: 32%;
     }
     
 }
